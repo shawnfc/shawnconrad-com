@@ -1,0 +1,43 @@
+<div layout="row" class="portfolioCont">
+
+    <div layout="column" flex="80" flex-offset="20">
+
+        <div layout-align="end" class="md-margin md-padding">
+            <div ng-controller="MyController">
+
+                <!--Search Area-->
+                <div class="search md-padding md-margin" layout="row" flex>
+                    <md-input-container>
+                        <label>Search:</label>
+                        <input ng-model="query" placeholder="Search Portfolio" flex="100">
+                    </md-input-container>
+                </div>
+
+                <!--Portfolio-->
+                <div class="portfolioList" flex="">
+                    <md-card class="portfolio" layout="row" layout-sm="column" layout-xs="column"
+                             ng-repeat="item in portfolio | filter: query | orderBy: portfolioOrder:direction"
+                             layout-md="100">
+                        <div layout="column" class="md-margin md-padding" flex="30" flex-sm="100" flex-xs="100"
+                             layout-align="center center">
+                            <a href="{{item.view}}" target="{{item.target}}" class="{{item.class}}"><img
+                                    ng-src="img/thumbs/{{item.shortname}}_thumb.jpg" alt="{{item.name}}"/>
+                            </a>
+                        </div>
+                        <div layout="row" layout-align="start center" flex="70" flex-sm="100" flex-xs="100"
+                             layout-md="100">
+                            <div layout="column" class="md-margin md-padding">
+                                <div class="description">
+                                    <h2>{{item.name}}</h2>
+                                    <p>{{item.description}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </md-card>
+                </div>
+            </div>
+            </section>
+        </div>
+    </div>
+    <img src="img/shawn_full.png" alt="shawn full image" class="portfolio_bg">
+</div>

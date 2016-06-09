@@ -1,0 +1,146 @@
+﻿[
+  {
+    "name": "Retail Software UI",
+    "shortname": "new_spcm",
+    "view": "img/new_spcm.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Designed and developed a Material Design based UI for the Chrome version of Home Depot's Store PC Menu in their retail stores."
+  },
+  {
+    "name": "Maintenance Software UI",
+    "shortname": "mwa_tooltip",
+    "view": "img/mwa_tooltip.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Added some tooltip functionality and UI love to an existing Home Depot application."
+  },
+  {
+    "name": "Application Management UI",
+    "shortname": "cas_builds_view",
+    "view": "img/cas_builds_view.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Implemented a Material Design based UI according to the UX team specifications for Home Depot's Chrome App Server."
+  },
+  {
+    "name": "UI Facelift",
+    "shortname": "sorting_hat_comparison",
+    "view": "img/sorting_hat_comparison.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "An already working and used Home Depot internal application that needed some UI love."
+  },
+  {
+    "name": "Financial",
+    "shortname": "atlanta_capital_group",
+    "view": "http://www.atlantacapitalgroup.com",
+    "target": "_blank",
+    "class": "",
+    "description": "Hand-coded this website for Atlanta Capital Group using HTML5, CSS3, and JavaScript/jQuery based on the vision and layout needs of the client."
+  },
+  {
+    "name": "Mobile Application Design",
+    "shortname": "iPhone_iPhone-Diease_portfolio",
+    "view": "img/iPhone_iPhone-Diease_portfolio.png",
+    "target": "_blank",
+    "class": "thumbnail gallery",
+    "description": "Wire-framed and designed this application for the iPhone platform using Adobe Photoshop."
+  },
+  {
+    "name": "Child Care",
+    "shortname": "LHI-HomePage",
+    "view": "http://shawnconrad.com/clients/LHI_HTML/index.htm",
+    "target": "_blank",
+    "class": "",
+    "description": "Designed and coded full website for Day Care center using HTML5, CSS3, and jQuery."
+  },
+  {
+    "name": "Health Care",
+    "shortname": "web_md_ask",
+    "view": "http://webmd.com",
+    "target": "_blank",
+    "class": "",
+    "description": "Re-skinned former look of WebMD's revenue website using HTML5, CSS3, and JavaScript within their custom CMS."
+  },
+  {
+    "name": "B2B",
+    "shortname": "cokeSmart",
+    "view": "http://shawnconrad.com/clients/cokeSmart/proposed_alt_tabs.html",
+    "target": "_blank",
+    "class": "",
+    "description": "Wire-framed, designed, and coded ordering pages for Coca-Cola business clients using HTML5, CSS3, and jQuery UI."
+  },
+  {
+    "name": "Flooring & Decor",
+    "shortname": "Conrad_Flooring_Home_link_bubble",
+    "view": "img/Conrad_Flooring_Home.jpg",
+    "target": "_blank",
+    "class": "thumbnail gallery",
+    "description": "Wire-framed and designed this concept website from scratch using Adobe Fireworks."
+  },
+  {
+    "name": "Educational",
+    "shortname": "ksu_int",
+    "view": "http://kennesaw.edu/international/",
+    "target": "_blank",
+    "class": "",
+    "description": "Hand-coded this website for Kennesaw State University using HTML5, CSS3, and JavaScript."
+  },
+  {
+    "name": "Investigative Services",
+    "shortname": "holliday_investigations",
+    "view": "http://hollidayinvestigations.com/",
+    "target": "_blank",
+    "class": "",
+    "description": "Contributing developer for the Holliday Investigative Services website using HTML5, CSS3, and jQuery."
+  },
+  {
+    "name": "Music",
+    "shortname": "freshcoandmizWebsite",
+    "view": "http://freshcoandmiz.com/",
+    "target": "_blank",
+    "class": "",
+    "description": "Designed and developed this responsive website which includes lightbox, HTML5, and CSS3."
+  },
+  {
+    "name": "Art",
+    "shortname": "masonmurer",
+    "view": "http://masonmurer.com/",
+    "target": "_blank",
+    "class": "",
+    "description": "Hand-coded and highly customized website using HTML5, CSS3, and jQuery."
+  },
+  {
+    "name": "Salon",
+    "shortname": "moJazz_rough",
+    "view": "http://shawnconrad.com/clients/mojazz/index.html",
+    "target": "_blank",
+    "class": "",
+    "description": "Designed and hand-coded responsive website using Bootstrap, HTML5, CSS3, and jQuery."
+  },
+  {
+    "name": "Kitchen & Bath",
+    "shortname": "national_home",
+    "view": "http://shawnconrad.com/clients/National-HTML/index.html",
+    "target": "_blank",
+    "class": "",
+    "description": "Concept re-design and hand-coding for National Builder Supply using HTML5 and CSS3."
+  },
+  {
+    "name": "Single Sign-On",
+    "shortname": "sso",
+    "view": "img/sso.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Designed and coded Home Depot's Single Sign-On interface to properly fit multiple device sizes."
+  },
+  {
+    "name": "Consulting",
+    "shortname": "italo_consulting",
+    "view": "http://italoconsulting.com/",
+    "target": "_blank",
+    "class": "",
+    "description": "Wire-framed, mocked up, and hand-coded this custom website using HTML5, CSS3, and jQuery."
+  }
+]

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html ng-app="scApp">
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body ng-class="backgroundCss" ng-cloak="">
+
+<md-toolbar class="titleHeader">
+    <div class="md-toolbar-tools" ui-sref="home">
+        <img src="img/shawn-imoji-small.jpg" class="userImage">
+        <div class="headerTitleFont">ShawnConrad.com</div>
+    </div>
+</md-toolbar>
+<md-toolbar class="mainMenu md-accent">
+    <div class="md-toolbar-tools" layout="row" layout-align="end center">
+        <span class="headerSubTitle" ui-sref="portfolio">UI Development Done Right!</span>
+        <span flex=""></span>
+        <div class="navigation">
+            <md-button ui-sref="home" class="md-accent"><span class="fa fa-home"></span> Home</md-button>
+            <md-button ui-sref="about" class="mainMenuBtn"><span class="fa fa-male"></span> About</md-button>
+            <md-button ui-sref="portfolio" class="mainMenuBtn"><span class="fa fa-briefcase"></span> Portfolio
+            </md-button>
+            <md-button ui-sref="contact" class="mainMenuBtn"><span class="fa fa-envelope"></span> Contact</md-button>
+        </div>
+    </div>
+</md-toolbar>
+
+<!--vertical nav-->
+<nav class="burger">
+    <a href="#" class="burger__button" id="burger-button">
+        <span class="burger__button__icon"></span>
+    </a>
+    <ul class="burger__menu">
+        <li>
+            <a class="links" ui-sref="home">Home</a>
+        </li>
+        <li>
+            <a class="links" ui-sref="about">About</a>
+        </li>
+        <li>
+            <a class="links" ui-sref="portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a class="links" ui-sref="contact">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<!--page content-->
+<div ui-view flex></div>
+
+<md-fab-speed-dial md-direction="down" class="md-scale md-fab-top-right" ng-cloak="">
+    <md-fab-trigger>
+        <md-button aria-label="menu" class="md-fab md-primary">
+            <span class="fa fa-external-link fa-lg"></span>
+        </md-button>
+    </md-fab-trigger>
+    <md-fab-actions>
+        <md-button aria-label="linkedin" class="md-fab md-raised md-mini">
+            <a href="https://www.linkedin.com/in/shawn-conrad-41070ba" target="_blank"
+               title="LinkedIn">
+                <span class="fa fa-linkedin"></span></a>
+        </md-button>
+        <md-button aria-label="facebook" class="md-fab md-raised md-mini">
+            <a href="https://www.facebook.com/shawn.freshco.conrad" target="_blank"
+               title="Facebook">
+                <span class="fa fa-facebook"></span></a>
+        </md-button>
+        <md-button aria-label="YouTube Documentary" class="md-fab md-raised md-mini">
+            <a href="https://www.youtube.com/watch?v=lDqOkPitFfc" target="_blank"
+               title="The documentary about my music career">
+                <span class="fa fa-film"></span></a>
+        </md-button>
+        <md-button aria-label="IMDB Movie Database" class="md-fab md-raised md-mini">
+            <a href="http://www.imdb.com/name/nm1910925/?ref_=fn_al_nm_1" target="_blank"
+               title="Film & TV sound credits">
+                <span class="fa fa-television"></span></a>
+        </md-button>
+        <md-button aria-label="Google Plus" class="md-fab md-raised md-mini">
+            <a href="https://plus.google.com/u/0/113959400802642830545/posts" target="_blank"
+               title="Connect with me on Google+">
+                <span class="fa fa-google-plus"></span></a>
+        </md-button>
+    </md-fab-actions>
+</md-fab-speed-dial>
+
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
