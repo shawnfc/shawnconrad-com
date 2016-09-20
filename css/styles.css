@@ -289,7 +289,7 @@ body:before {
   .pageCardsCont {
     margin: 7% 2%;
     width: 100%;
-    display: in;
+    display: inline;
   }
   .pageCardsCont .pageTitle,
   .pageCardsCont .aboutPageTitle {
