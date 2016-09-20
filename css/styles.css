@@ -90,6 +90,9 @@ md-fab-actions a {
 .search md-input-container {
   width: 100%;
 }
+.search md-input-container label {
+  font-size: 1.2em;
+}
 .search input {
   font-size: 1.2em;
 }
