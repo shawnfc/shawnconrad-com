@@ -7,9 +7,9 @@
                 <!--Search Area-->
                 <div class="search md-padding md-margin" layout="row" flex>
                     <md-input-container>
-                        <label>Search:</label>
-                        <input ng-model="query" placeholder="Search Portfolio" flex="100">
-                        <a ng-click="clear()" class="clearSearch" title="Clear Search Query">Clear Search</a>
+                        <label>Search Portfolio:</label>
+                        <input ng-model="query" class="search-input" flex="100">
+                        <a ng-click="clear()" ng-hide="query == ''" class="clearSearch" title="Clear Search Query">Clear Search</a>
                     </md-input-container>
                 </div>
 
@@ -41,7 +41,6 @@
             </section>
         </div>
         <img src="img/shawn_full.png" alt="shawn full image" class="portfolio_bg">
-
 
     </div>
 </div>

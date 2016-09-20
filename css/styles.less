@@ -116,7 +116,6 @@ md-fab-actions a {
 
 //Clear Search button
 .clearSearch {
-  display: inline;
   cursor: pointer;
   color: #e2d5d5;
   margin-top: 10px;
@@ -331,7 +330,13 @@ body {
 }
 
 //media queries
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1097px) {
+  .headerSubTitle {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 628px) {
   .headerSubTitle, .navigation, .userImage {
     display: none;
   }

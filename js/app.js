@@ -50,7 +50,7 @@ angular.module('scApp', ['ngMaterial', 'ui.router'])
             $scope.scroll = function () {
                 $anchorScroll();
             };
-            $scope.clear = function() {
+            $scope.clear = function () {
                 $scope.query = '';
             }
         });
@@ -67,7 +67,6 @@ burger.addEventListener("click", function (e) {
 });
 
 for (var i = 0; i < links.length; i++) {
-    console.log(links[0]);
     links[i].addEventListener('click', function (e) {
         e.preventDefault();
         document.body.classList.toggle("open");
@@ -75,24 +74,16 @@ for (var i = 0; i < links.length; i++) {
     }, false);
 }
 
-// back to top button
+// Back To Top button
 jQuery(document).ready(function () {
-
     var offset = 250;
-
     var duration = 300;
 
     jQuery(window).scroll(function () {
-
         if (jQuery(this).scrollTop() > offset) {
-
             jQuery('.back-to-top').fadeIn(duration);
-
         } else {
-
             jQuery('.back-to-top').fadeOut(duration);
-
         }
-
-    })
+    });
 });
