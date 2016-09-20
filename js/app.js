@@ -43,14 +43,18 @@ angular.module('scApp', ['ngMaterial', 'ui.router'])
                 templateUrl: "views/contact.html"
             })
     })
-    .controller("MyController", ["$scope", "$http", function MyController($scope, $http) {
+    .controller("MyController", ["$scope", "$http", '$anchorScroll', function MyController($scope, $http, $anchorScroll) {
         $http.get('js/data.json').success(function (data) {
             $scope.portfolio = data;
             $scope.portfolioOrder = "name";
+            $scope.scroll = function () {
+                $anchorScroll();
+            };
+            $scope.clear = function() {
+                $scope.query = '';
+            }
         });
     }]);
-
-"use strict";
 
 var burger = document.getElementById("burger-button");
 
@@ -70,3 +74,25 @@ for (var i = 0; i < links.length; i++) {
         burger.classList.toggle("open");
     }, false);
 }
+
+// back to top button
+jQuery(document).ready(function () {
+
+    var offset = 250;
+
+    var duration = 300;
+
+    jQuery(window).scroll(function () {
+
+        if (jQuery(this).scrollTop() > offset) {
+
+            jQuery('.back-to-top').fadeIn(duration);
+
+        } else {
+
+            jQuery('.back-to-top').fadeOut(duration);
+
+        }
+
+    })
+});

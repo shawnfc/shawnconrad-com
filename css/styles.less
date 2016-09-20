@@ -98,7 +98,6 @@ md-fab-actions a {
   color: rgb(229, 57, 53);
 }
 
-//portfolio
 .search {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 3px 3px 0 0;
@@ -106,6 +105,27 @@ md-fab-actions a {
 
 .search md-input-container {
   width: 100%;
+}
+
+.search input {
+  font-size: 1.2em;
+}
+
+.clearSearch {
+  display: inline;
+  cursor: pointer;
+  color: #e2d5d5;
+  margin-top: 10px;
+  font-size: .8em;
+  position: relative;
+  top: 12px;
+  background: rgb(66,66,66);
+  padding: 5px 8px;
+  border-radius: 4px;
+  letter-spacing: .5px;
+  &:hover {
+    color: #fff;
+  }
 }
 
 ul.portfolioList li {
@@ -120,6 +140,27 @@ img.portfolio_bg {
   left: 10px;
   z-index: 1000;
   margin-bottom: 0;
+}
+
+.back-to-top {
+  background: none;
+  margin: 0;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.back-to-top i {
+  font-size: 60px;
+  background-color: rgb(229,57,53);
+  padding: 5px;
+  border-radius: 4px;
+  opacity: .8;
 }
 
 md-fab-speed-dial.md-fab-top-right {
@@ -305,6 +346,7 @@ body {
   .pageCardsCont {
     margin: 7% 2%;
     width: 100%;
+    display: in;
   }
 
   .pageCardsCont .pageTitle, .pageCardsCont .aboutPageTitle {
