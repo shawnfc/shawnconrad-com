@@ -20,8 +20,8 @@
                              layout-md="100">
                         <div layout="column" class="md-margin md-padding" flex="30" flex-sm="100" flex-xs="100"
                              layout-align="center center">
-                            <a href="{{item.view}}" target="{{item.target}}" class="{{item.class}}"><img
-                                    ng-src="img/thumbs/{{item.shortname}}_thumb.jpg" alt="{{item.name}}"/>
+                            <a href="{{item.view}}" target="{{item.target}}" class="{{item.class}}" ng-click="openLightboxModal($index)"><img
+                                    ng-src="img/thumbs/{{item.shortname}}_thumb.jpg" alt="{{item.name}}" class="img-thumbnail"/>
                             </a>
                         </div>
                         <div layout="row" layout-align="start center" flex="70" flex-sm="100" flex-xs="100"

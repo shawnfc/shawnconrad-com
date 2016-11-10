@@ -6,14 +6,17 @@
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="node_modules/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <script src="bower_components/angular/angular.js"></script>
+    <script src="node_modules/angular-touch/angular-touch.min.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="bower_components/angular-aria/angular-aria.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-material/angular-material.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.js"></script>
 </head>
 <body ng-class="backgroundCss" ng-cloak="">
 
@@ -25,14 +28,14 @@
 </md-toolbar>
 <md-toolbar class="mainMenu md-accent">
     <div class="md-toolbar-tools" layout="row" layout-align="end center">
-        <span class="headerSubTitle" ui-sref="portfolio">Front-end Development Done Right!</span>
+        <span class="headerSubTitle" ui-sref="portfolio">UI / UX Design done properly!</span>
         <span flex=""></span>
         <div class="navigation">
             <md-button ui-sref="home" class="md-accent"><span class="fa fa-home"></span> Home</md-button>
             <md-button ui-sref="about" class="mainMenuBtn"><span class="fa fa-male"></span> About</md-button>
             <md-button ui-sref="portfolio" class="mainMenuBtn"><span class="fa fa-briefcase"></span> Portfolio
             </md-button>
-            <md-button href="img/sConradFrontEndDeveloper.pdf" target="_blank" class="mainMenuBtn"><span class="fa fa-file-text"></span> Resume
+            <md-button href="img/sConrad-UXdesigner.pdf" target="_blank" class="mainMenuBtn"><span class="fa fa-file-text"></span> Resume
             </md-button>
             <md-button ui-sref="contact" class="mainMenuBtn"><span class="fa fa-envelope"></span> Contact</md-button>
         </div>
@@ -55,7 +58,7 @@
             <a class="links" ui-sref="portfolio">Portfolio</a>
         </li>
         <li>
-            <a class="links" href="img/sConradFrontEndDeveloper.pdf">Resume</a>
+            <a class="links" href="img/sConrad-UXdesigner.pdf" target="_blank">Resume</a>
         </li>
         <li>
             <a class="links" ui-sref="contact">Contact</a>

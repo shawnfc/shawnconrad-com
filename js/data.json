@@ -21,7 +21,7 @@
     "view": "img/cas_builds_view.jpg",
     "target": "_blank",
     "class": "",
-    "description": "Implemented a Material Design based UI according to the UX team specifications for Home Depot's Chrome App Server."
+    "description": "Designed and implemented a Material Design based UI according to the UX team specifications for Home Depot's Chrome App Server."
   },
   {
     "name": "UI Facelift",
@@ -29,7 +29,7 @@
     "view": "img/sorting_hat_comparison.jpg",
     "target": "_blank",
     "class": "",
-    "description": "An already working and used Home Depot internal application that needed some UI love."
+    "description": "A Home Depot interal production application that needed a UI transformation."
   },
   {
     "name": "Financial",
