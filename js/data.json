@@ -8,6 +8,14 @@
     "description": "Designed and developed a Material Design based UI for the Chrome version of Home Depot's Store PC Menu in their retail stores."
   },
   {
+    "name": "Smart TV User Interface Design",
+    "shortname": "shawn_tv",
+    "view": "img/shawn_tv.png",
+    "target": "_blank",
+    "class": "",
+    "description": "Designed a concept mockup of a televsion user interface to make user choices more easy."
+  },
+  {
     "name": "Maintenance Software UI",
     "shortname": "mwa_tooltip",
     "view": "img/mwa_tooltip.jpg",
