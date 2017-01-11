@@ -80,6 +80,18 @@ span.headerSubTitle {
 .pageCardsCont .pageContent {
   font-size: 1.1em;
 }
+.pageCardsCont {
+  margin: 7% 2%;
+  width: 50%;
+  display: inline;
+}
+.pageCardsCont .pageTitle,
+.pageCardsCont .aboutPageTitle {
+  width: 100%;
+}
+.pageCardsCont .contentDiv {
+  width: 80%;
+}
 md-fab-actions a {
   color: #e53935;
 }
@@ -276,6 +288,18 @@ body:before {
 @media only screen and (max-width: 1097px) {
   .headerSubTitle {
     display: none;
+  }
+  .pageCardsCont {
+    margin: 7% 2%;
+    width: 100%;
+    display: inline;
+  }
+  .pageCardsCont .pageTitle,
+  .pageCardsCont .aboutPageTitle {
+    width: 100%;
+  }
+  .pageCardsCont .contentDiv {
+    width: 85%;
   }
 }
 @media only screen and (max-width: 628px) {

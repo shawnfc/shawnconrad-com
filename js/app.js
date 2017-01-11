@@ -38,6 +38,10 @@ angular.module('scApp', ['ngMaterial', 'ui.router'])
                 url: "/portfolio",
                 templateUrl: "views/portfolio.html"
             })
+            .state('myportfolio', {
+                url: "/myportfolio",
+                templateUrl: "views/myportfolio.html"
+            })
             .state('contact', {
                 url: "/contact",
                 templateUrl: "views/contact.html"

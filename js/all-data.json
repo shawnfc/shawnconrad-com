@@ -1,4 +1,12 @@
-﻿[
+[
+  {
+    "name": "Retail Software UI",
+    "shortname": "new_spcm",
+    "view": "img/new_spcm.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Designed and hand coded this preliminary version Home Depot's Store PC Menu for their retail stores."
+  },
   {
     "name": "Smart TV User Interface Design",
     "shortname": "shawn_tv",
@@ -6,6 +14,30 @@
     "target": "_blank",
     "class": "",
     "description": "Designed a concept mockup of a televsion user interface to make user choices more easy."
+  },
+  {
+    "name": "Maintenance Software UI",
+    "shortname": "mwa_tooltip",
+    "view": "img/mwa_tooltip.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Added some tooltip functionality and UI love to an existing Home Depot application."
+  },
+  {
+    "name": "Application Management UI",
+    "shortname": "cas_builds_view",
+    "view": "img/cas_builds_view.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Implemented via HTML5 and CSS3, a Material Design based UI according to the UX team specifications for Home Depot's Chrome App Server."
+  },
+  {
+    "name": "UI Facelift",
+    "shortname": "sorting_hat_comparison",
+    "view": "img/sorting_hat_comparison.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "A Home Depot interal production application that needed a UI transformation via HTML5 and CSS3."
   },
   {
     "name": "Financial",
@@ -102,6 +134,14 @@
     "target": "_blank",
     "class": "",
     "description": "Concept re-design and hand-coding for National Builder Supply using HTML5 and CSS3."
+  },
+  {
+    "name": "Single Sign-On",
+    "shortname": "sso",
+    "view": "img/sso.jpg",
+    "target": "_blank",
+    "class": "",
+    "description": "Hand coded Home Depot's Single Sign-On interface to properly fit multiple device sizes."
   },
   {
     "name": "Consulting",
